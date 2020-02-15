@@ -1,0 +1,115 @@
+
+body {
+	background-color: #CDE6F5;
+	color: rgb(50, 50, 50);
+	font-family: 'Lora', serif;
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: #306BAC;
+	font-size: 32px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2{
+	color: #306BAC;
+	font-size: 24px;
+	font-weight:lighter;
+	font-weight: 300;
+}
+
+.btn-blue {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 16px;
+	background-color:#306BAC;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+a:hover {
+	color: #306BAC;
+}
+
+div {
+	background: #CDE6F5;
+	border:2px white;
+	margin: 10px;
+	box-shadow:0px 5px 5px #CACFD6;
+	border-radius: 30%;
+}
+
+img	{
+	width: 200px;
+}
+
+/* Custom design with class */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+	width:600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+	width:400px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius:4px;
+	margin: 8px 0px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#logo{
+	border-radius: 70%;
+	margin-bottom: 10px;
+}
+
+.btn-blue:hover {
+	background-color: #CDE6F5;
+}
+
+.list-horizontal {
+	list-style:none;
+	padding-left: 0px;	
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size:30px;
+	color: #306BAC;
+}
+
+.list-horizontal i:hover {
+	color:#CDE6F5;
+}
+
+/* Design adjustments using id */
+
+#introduction p {
+	margin-bottom: 30px
+}
